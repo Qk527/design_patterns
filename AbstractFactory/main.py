@@ -6,3 +6,8 @@ def client_code(factory):
 
   button.paint()
   textbox.paint()
+
+if __name__ == '__main__':
+  client_code(DarkUIFactory())
+  print()
+  client_code(LIghtUIFactory())
