@@ -1,3 +1,5 @@
+from flyweight import ChessPieceFlyweight
+
 class ChessPieceFactory:
   _flyweights = {}
 
