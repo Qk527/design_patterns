@@ -18,3 +18,6 @@ class Circle(Shape):
 
     def draw(self):
         self.renderer.render_shape("circle")
+
+    def resize(self, factor):
+        self.radius *= factor
